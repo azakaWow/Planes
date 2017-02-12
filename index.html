@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            
+        </title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+       
+        <div class="main-field" id="pane">
+           <p>There must be some coordinates        
+        </p>
+            <p id="coor"></p>
+            <div class="Cplayer" id="player" >
+                <img src="DogFighter.png" alt="" />
+            </div>
+       
+        </div>
+        <table class="Control">
+                  <tr>
+                    <td></td>
+                    <td><button>Up</button></td>
+                    <td></td>
+               </tr>
+                <tr>
+                   <td><button onclick="left()">Left</button></td>
+                   <td></td>
+                   <td><button onclick="right()">Right</button></td>
+               </tr>
+                <tr>
+                   <td></td>
+                   <td><button>Down</button></td>
+                   <td></td>
+               </tr>
+        </table>
+    </body>
+    <script>
+        var top = player.style.top;
+        var left = player.style.left;
+       
+        
+     
+        
+        function right(){
+          
+            player.style.left = (parseInt(2))+"px";
+        }
+        
+       
+        
+       
+    </script>
+</html>

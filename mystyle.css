@@ -1,0 +1,24 @@
+.main-field{
+   position: relative;
+    width: 950px;
+    height: 450px;
+    background-color: skyblue;
+}
+.Cplayer{
+    position:absolute; top:410px; left:70px;
+    width: 29px;
+    height: 17px;      
+}
+table {
+  
+    border: 1px solid black;
+      empty-cells: hide;
+}
+td{
+    
+   padding: 10px;
+    width:50px;
+}
+button{
+    width: 100%;
+}
