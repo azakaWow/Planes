@@ -1,24 +1,11 @@
-.main-field{
-   position: relative;
-    width: 950px;
-    height: 450px;
-    background-color: skyblue;
+canvas { background-image: url("main-field.png"); display: block; margin: 0 auto; }
+.info{
+    margin: 0 auto;
+    height: 100px;
 }
-.Cplayer{
-    position:absolute; top:410px; left:70px;
-    width: 29px;
-    height: 17px;      
+h5{
+    text-align: center;
 }
-table {
-  
-    border: 1px solid black;
-      empty-cells: hide;
-}
-td{
-    
-   padding: 10px;
-    width:50px;
-}
-button{
-    width: 100%;
+p{
+    text-align: center;
 }
